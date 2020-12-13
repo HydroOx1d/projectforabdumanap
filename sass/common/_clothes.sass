@@ -1,0 +1,54 @@
+.clothes
+    &__inner
+        padding: 30px 0
+        display: flex
+        justify-content: space-between
+        align-items: center
+    &__block
+        display: flex
+        align-items: center
+        &--bor
+            position: relative
+            &::before
+                content: ''
+                position: absolute
+                width: 1px
+                height: 210px
+                left: -100px
+                background: #cccccc
+            &::after
+                content: ''
+                position: absolute
+                width: 1px
+                height: 210px
+                right: -100px
+                background: #cccccc
+        &--ml
+            margin-left: 50px
+        &--title
+            max-width: 75px
+            font-size: 27px
+            font-family: bebas, sans-serif
+            color: #afafaf
+            text-transform: uppercase
+        &--btn
+            display: inline-block
+            padding: .3rem .8rem
+            background: #3cc395
+            color: #ffffff
+            font-size: 19px
+            font-family: bebas, sans-serif
+            text-transform: uppercase
+
+
+.feature
+    background-color: #3ac8b7 
+    &__inner
+        padding: 2px 0
+    &__title
+        color: #ffffff
+        text-transform: uppercase
+        font-size: 31px
+        font-family: bebas, sans-serif
+        letter-spacing: 3px
+        text-shadow: 2px 2px 6px #000000
