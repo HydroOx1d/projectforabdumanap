@@ -262,6 +262,15 @@
   font-size: 15px;
   font-family: SansR, sans-serif;
 }
+.footer__copyright {
+  background-color: #2da89b;
+  padding: 15px 0;
+}
+.footer__copyright--text {
+  text-align: center;
+  font-size: 15px;
+  font-family: SansR, sans-serif;
+}
 
 body, html {
   width: 100%;
