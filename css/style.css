@@ -1,0 +1,117 @@
+.header__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__logo--text {
+  color: #3cc3b5;
+  font-size: 49px;
+  font-style: italic;
+  font-family: lobster, sans-serif;
+}
+.header__price {
+  display: flex;
+  align-items: center;
+}
+.header__price--cost {
+  font-size: 33px;
+  font-family: bebas, sans-serif;
+  color: #a1a1a1;
+  padding-left: 10px;
+}
+.header__nav {
+  background-color: #4ccfc1;
+}
+.header__nav--item {
+  padding: 10px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header__nav--link {
+  color: #ffffff;
+  font-size: 21px;
+  text-transform: uppercase;
+  font-family: bebas, sans-serif;
+}
+.header__nav--link--line {
+  padding-left: 28px;
+}
+
+.crew {
+  background-color: #3ec7b7;
+}
+.crew__inner {
+  padding: 67px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.crew__content {
+  color: #ffffff;
+}
+.crew__content--title {
+  font-size: 61px;
+  font-family: bebas, sans-serif;
+  letter-spacing: 3px;
+  margin-top: -50px;
+}
+.crew__content--desc {
+  max-width: 420px;
+  font-size: 17px;
+  font-family: SansR, sans-serif;
+  margin-top: -25px;
+  line-height: 30px;
+}
+.crew__btn {
+  display: inline-block;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 27px;
+  font-family: bebas, sans-serif;
+  border: 3px solid #ffffff;
+  border-radius: 6px;
+  padding: 0.5rem 1.5rem;
+}
+
+.wrapper {
+  position: relative;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "bebas";
+  src: url("../fonts/bebasneue-regularOx1dFonts.woff2") format("woff2"), url("../fonts/bebasneue-regularOx1dFonts.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "lobster";
+  src: url("../fonts/lobster-regularOx1dFonts.woff2") format("woff2"), url("../fonts/lobster-regularOx1dFonts.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SansB";
+  src: url("../fonts/opensans-boldOx1dFonts.woff2") format("woff2"), url("../fonts/opensans-boldOx1dFonts.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: "SansR";
+  src: url("../fonts/opensans-regularOx1dFonts.woff2") format("woff2"), url("../fonts/opensans-regularOx1dFonts.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*# sourceMappingURL=style.css.map */
